@@ -1,0 +1,9 @@
+[submodule "UmedaTakefumi.vim"]
+	path = UmedaTakefumi.vim
+	url = https://github.com/UmedaTakefumi/UmedaTakefumi.vim.git
+[submodule "UmedaTakefumi.bash"]
+	path = UmedaTakefumi.bash
+	url = https://github.com/UmedaTakefumi/UmedaTakefumi.bash.git
+[submodule "UmedaTakefumi.screen"]
+	path = UmedaTakefumi.screen
+	url = https://github.com/UmedaTakefumi/UmedaTakefumi.screen.git
