@@ -7,3 +7,9 @@
 [submodule "UmedaTakefumi.screen"]
 	path = UmedaTakefumi.screen
 	url = https://github.com/UmedaTakefumi/UmedaTakefumi.screen.git
+[submodule "UmedaTakefumi.ansible"]
+	path = UmedaTakefumi.ansible
+	url = https://github.com/UmedaTakefumi/UmedaTakefumi.ansible.git
+[submodule "UmedaTakefumi.gitconfig"]
+	path = UmedaTakefumi.gitconfig
+	url = https://github.com/UmedaTakefumi/UmedaTakefumi.gitconfig.git
