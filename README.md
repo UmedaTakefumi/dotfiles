@@ -8,9 +8,6 @@ UmedaTakefumi.setup
 ```
 git clone https://github.com/UmedaTakefumi/UmedaTakefumi.setup.git
 cd UmedaTakefumi.setup
-git submodule init
-git submodule update
-git submodule foreach git pull origin master
 ./setup.sh
 ```
 

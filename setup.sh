@@ -3,6 +3,12 @@
 current_dir=`pwd`
 setuplist=()
 
+func_git_submodule_setup(){
+  git submodule init
+  git submodule update
+  git submodule foreach git pull origin master
+}
+
 func_link(){
   echo "ln -s $value/${setupfilename} ${HOME}/${setupfilename}"
   ln -s $value/${setupfilename} ${HOME}/${setupfilename}
@@ -12,6 +18,8 @@ func_unlink(){
   echo "unlink ${HOME}/${setupfilename}"
   unlink ${HOME}/${setupfilename}
 }
+
+func_git_submodule_setup
 
 while read f; do
   setuplist+=("$f")
