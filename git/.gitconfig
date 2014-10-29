@@ -1,0 +1,18 @@
+[user]
+  name  = UnknownUserName
+  email = example@example.jp
+
+[core]
+  precomposeunicode = true
+
+[color]
+  ui = auto
+
+[merge]
+  tool = vimdiff
+
+[mergetool]
+  prompt = false
+  keepBackup = false
+
+
