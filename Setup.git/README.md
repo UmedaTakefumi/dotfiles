@@ -1,2 +1,0 @@
-UmedaTakefumi.gitconfig
-=======================
