@@ -12,15 +12,5 @@ cd UmedaTakefumi.setup
 ```
 
 
-## git submodule の使い方
-
-### submoduleをcloneする
-
-```
-git submodule init
-git submodule update
-```
-
-
 
 
