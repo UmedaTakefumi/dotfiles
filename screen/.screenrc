@@ -1,0 +1,39 @@
+
+# メタキーを設定
+escape ^Tt 
+ 
+# スタートメッセージをオフ
+startup_message off 
+
+# メッセージ表示するまでの待ち時間
+msgwait 0
+
+# スクロールバッファ
+defscrollback 5000
+
+# ステータスバー
+hardstatus alwayslastline "%{= wk} %-w%{=bu dw}%n %t%{-}%+w %= %{=b wb}%Y/%m/%d %{=b wb}%c:%s"
+
+# 謎/忘れた
+defmonitor on
+
+# ビジュアルベル無効
+vbell off 
+
+# 自動デタッチ有効
+autodetach on
+ 
+# 文字コード設定
+defutf8 on
+defkanji utf-8
+encoding utf-8 utf-8
+defencoding utf-8
+
+# ターミナルカラー設定
+term xterm-256color
+
+# スクリーンタブ起動
+screen -t cmd   3 bash -l
+screen -t cmd   2 bash -l
+screen -t cmd   1 bash -l
+
