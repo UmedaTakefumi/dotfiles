@@ -1,3 +1,6 @@
+script_name=history.sh
+echo "Loding $script_name ..."
+
 # bashのhistoryに関する設定
 # bash hack
 # http://takuya-1st.hatenablog.jp/entry/20090828/1251474360
