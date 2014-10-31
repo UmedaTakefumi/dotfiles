@@ -3,7 +3,9 @@
   email = example@example.jp
 
 [core]
+  # 日本語ファイル名に対応する
   precomposeunicode = true
+  quotepath = false
 
 [color]
   ui = auto
@@ -14,5 +16,4 @@
 [mergetool]
   prompt = false
   keepBackup = false
-
 
