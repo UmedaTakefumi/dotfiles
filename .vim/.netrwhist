@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/b04805/tmp/UmedaTakefumi.setup'
-let g:netrw_dirhist_2='/Users/b04805/Data/repos/my/github.com/UmedaTakefumi/StockCodes/stocks/bash/unixbench-wrapper'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/b04805/.vim'
+let g:netrw_dirhist_2='/Users/b04805'
+let g:netrw_dirhist_3='/Users/b04805/.vimconfigs'
+let g:netrw_dirhist_4='/Users/b04805/.bashconfigs'
