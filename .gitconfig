@@ -6,6 +6,7 @@
   # 日本語ファイル名に対応する
   precomposeunicode = true
   quotepath = false
+	editor = /usr/bin/vim
 
 [color]
   ui = auto

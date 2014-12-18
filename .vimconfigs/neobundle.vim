@@ -23,6 +23,7 @@ NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'Shougo/vimfiler'
 NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Shougo/neosnippet-snippets'
 
 ""NeoBundle 'https://bitbucket.org/kovisoft/slimv'
 

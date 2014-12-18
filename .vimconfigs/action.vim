@@ -21,6 +21,9 @@ augroup vimrc-auto-mkdir  " {{{
 augroup END  " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" 一時的に追記
+" 水平分割 + VimShellの起動
+noremap vsp :sp<cr><c-w><c-w>:VimShell<cr>
 
 
 
