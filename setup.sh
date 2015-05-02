@@ -2,14 +2,14 @@
 
 current_dir=`pwd`
 
-func_link(){
-  echo "ln -s ${current_dir}/${setupfilename} ${HOME}/${setupfilename}"
-  ln -s ${current_dir}/${setupfilename} ${HOME}/${setupfilename}
+config_copy(){
+  echo "cp -arp ${current_dir}/${setupfilename} ${HOME}/${setupfilename}"
+  cp -arp ${current_dir}/${setupfilename} ${HOME}/${setupfilename}
 }
 
-func_unlink(){
-  echo "unlink ${HOME}/${setupfilename}"
-  unlink ${HOME}/${setupfilename}
+config_move(){
+  echo "mv ${HOME}/${setupfilename} ${HOME}/${setupfilename}.ORG"
+  mv ${HOME}/${setupfilename} ${HOME}/${setupfilename}.ORG
 }
 
 echo '#--------------------------------------------------------------'
@@ -19,10 +19,10 @@ numberline=1
 cat setupfiles | while read setupfilename
 do
   if [ -e "${HOME}/${setupfilename}" ]; then
-    func_unlink
-    func_link
+    config_copy
+    config_move
   else
-    func_link
+    config_copy
   fi
   numberline=$((numberline + 1))
 done
