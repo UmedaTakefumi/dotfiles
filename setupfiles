@@ -1,8 +1,8 @@
-.bashconfigs/
+.bashconfigs
 .gitconfig
-.gvimconfigs/
+.gvimconfigs
 .gvimrc
 .screenrc
-.vim/
-.vimconfigs/
+.vim
+.vimconfigs
 .vimrc
