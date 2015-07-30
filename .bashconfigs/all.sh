@@ -9,7 +9,5 @@ source $HOME/.bashconfigs/plenv.sh
 source $HOME/.bashconfigs/pyenv.sh
 #source $HOME/.bashconfigs/anyenv.sh
 
-wait
-
 
 
