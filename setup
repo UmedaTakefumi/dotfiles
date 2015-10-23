@@ -7,5 +7,5 @@ repo_name="UmedaTakefumi.setup"
 mkdir -p $init_dir
 cd $init_dir
 git clone $git_url
-cd $git_url
+cd $init_dir
 ./setup.pl
