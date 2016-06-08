@@ -6,6 +6,11 @@ UmedaTakefumi.setup
 ## 使い方
 
 ```
+/bin/sh "$((curl -fsSL https://raw.githubusercontent.com/UmedaTakefumi/UmedaTakefumi.setup/master/setup)"
+```
+
+
+```
 git clone https://github.com/UmedaTakefumi/UmedaTakefumi.setup.git
 cd UmedaTakefumi.setup
 ./setup.sh
