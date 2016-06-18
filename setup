@@ -1,0 +1,11 @@
+#!/bin/sh
+
+init_dir="${HOME}/Data/repos/my/UmedaTakefumi/"
+git_url="https://github.com/UmedaTakefumi/UmedaTakefumi.setup"
+repo_name="UmedaTakefumi.setup"
+
+mkdir -p $init_dir
+cd $init_dir
+git clone $git_url
+cd $init_dir$repo_name
+./setup.pl
