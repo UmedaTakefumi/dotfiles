@@ -6,3 +6,4 @@
 .vim
 .vimconfigs
 .vimrc
+.tmux.conf
