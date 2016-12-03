@@ -33,7 +33,7 @@ defencoding utf-8
 term xterm-256color
 
 # スクリーンタブ起動
-screen -t cmd   3 bash
-screen -t cmd   2 bash
-screen -t cmd   1 bash
+screen -t cmd   3 bash -l
+screen -t cmd   2 bash -l
+screen -t cmd   1 bash -l
 
