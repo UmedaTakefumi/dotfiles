@@ -48,5 +48,9 @@ set ruler
 "  autocmd VimEnter,WinEnter * match ZenkakuSpace /　/
 "augroup END
 
+" ファイルタイプによるSyntaxHightlightの有効化
+au BufNewFile,BufRead *.py setf python
+
+
 
 
