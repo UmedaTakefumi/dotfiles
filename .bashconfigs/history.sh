@@ -19,7 +19,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 
 # historyに時刻を挿入
-HISTTIMEFORMAT='%Y%m%d %T ';
+HISTTIMEFORMAT='# %Y%m%d %T ';
 export HISTTIMEFORMAT
 
 # screenコマンド利用時のhistoryを記録する
