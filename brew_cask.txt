@@ -1,0 +1,10 @@
+adoptopenjdk
+dbeaver-community
+docker
+freecad
+gimp
+libreoffice
+mamp
+osquery
+vagrant
+virtualbox

@@ -1,0 +1,5 @@
+ghq
+openjdk
+packer
+peco
+zsh-completions
