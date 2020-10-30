@@ -7,6 +7,7 @@
 #g  () {  }
 gc () { git checkout }
 gh () { ghq get }
+gom () { git push origin master }
 gp () { git pull  }
 #h  () {  }
 #i  () {  }
