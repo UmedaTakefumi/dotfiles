@@ -1,10 +1,16 @@
 #!/bin/sh
 
-echo "00. install brew"
+echo "00. init dir and download archive"
+mkdir -p ~/Data/repos
+mkdir -p ~/{tmp,Dockers,Develop-AZ,GoogleDrive,OneDrive,Vagrant}
+cd ~/tmp
+curl -OL https://github.com/UmedaTakefumi/dotfiles/archive/master.zip
+
+echo "01. install brew"
 ## ref. https://brew.sh/index_ja
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-echo "01. install app-list/brew"
+echo "02. install app-list/brew"
 ## export:
 ##   $ brew leaves > brew.txt
 ## 
@@ -12,7 +18,7 @@ echo "01. install app-list/brew"
 ## 
 xargs brew install < brew.txt 
 
-echo "02. install app-list/brew-cask"
+echo "03. install app-list/brew-cask"
 ## export: 
 ## 		$ brew cask list -1 > brew_cask.txt
 ##
