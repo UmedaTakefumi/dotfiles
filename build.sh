@@ -26,4 +26,3 @@ echo "03. install app-list/brew-cask"
 ## 
 xargs brew cask install < brew_cask.txt
 
-
