@@ -11,17 +11,15 @@ echo "01. install brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 echo "02. install app-list/brew"
-function brew_export()  {
+brew_export()  {
   brew leaves > brew.txt
   brew cask list -1 > brew_cask.txt
-  ## ref. https://qiita.com/qoAop/items/7b7533c716ba1fa4c16b
   ## ref. https://qiita.com/qoAop/items/7b7533c716ba1fa4c16b
 }
 xargs brew install < brew.txt 
 
 echo "03. install app-list/brew-cask"
 xargs brew cask install < brew_cask.txt
-
 
 ## ref. https://qiita.com/UmedaTakefumi/items/c81e596b246e48aa2c16
 pyenv install -l | grep -E "\s3.[0-9.]+$" | sort -nr | head -2 | xargs -I{} pyenv install {}
