@@ -2,4 +2,5 @@ ghq
 openjdk
 packer
 peco
+pyenv
 zsh-completions
