@@ -1,6 +1,7 @@
 adoptopenjdk
 dbeaver-community
 docker
+drawio
 freecad
 gimp
 libreoffice
@@ -8,3 +9,5 @@ mamp
 osquery
 vagrant
 virtualbox
+visual-studio-code
+wireshark
