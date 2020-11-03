@@ -33,4 +33,4 @@ if [ $SHELL = "/bin/zsh" ]; then
 else 
 
   echo "zsh..?"
-
+fi
