@@ -5,6 +5,7 @@ drawio
 freecad
 gimp
 libreoffice
+macvim
 mamp
 osquery
 vagrant
