@@ -23,7 +23,7 @@ p  () { python }
 #s  () {  }
 #t  () {  }
 #u  () {  }
-#v  () {  }
+v  () { vim -u $HOME/.vimconfigs/all.vim }
 #w  () {  }
 #x  () {  }
 #y  () {  }
