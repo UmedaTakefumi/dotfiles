@@ -4,12 +4,12 @@
 #d  () {  }
 #e  () {  }
 #f  () {  }
-#g  () {  }
+g  () { cd $(ghq root)/$(ghq list) | peco }
 gc () { git checkout }
 gh () { ghq get }
 gom () { git push origin master }
 gp () { git pull  }
-#h  () {  }
+h  () { history }
 #i  () {  }
 #j  () {  }
 #k  () {  }
@@ -17,15 +17,14 @@ l  () { ls -lasF }
 #m  () {  }
 #n  () {  }
 #o  () {  }
-#p  () {  }
+p  () { python }
 #q  () {  }
 #r  () {  }
 #s  () {  }
 #t  () {  }
 #u  () {  }
-#v  () { vim }
+#v  () {  }
 #w  () {  }
 #x  () {  }
 #y  () {  }
 #z  () {  }
-
