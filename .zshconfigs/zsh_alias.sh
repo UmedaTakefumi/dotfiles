@@ -1,3 +1,5 @@
+DOTFILES_STANDARD_PATH=$HOME/Data/repos/github.com/UmedaTakefumi/dotfiles
+
 #a  () { }
 #b  () {  }
 #c  () {  }
@@ -23,7 +25,22 @@ p  () { python }
 #s  () {  }
 #t  () {  }
 #u  () {  }
-v  () { vim -u $HOME/.vimconfigs/all.vim }
+v  () {
+  if [ -e $HOME/.vimconfigs/all.vim ]; then
+
+    vim -u $HOME/.vimconfigs/all.vim
+
+  elif [ -e $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim ]; then
+    
+    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim
+
+  else
+
+    vim 
+
+  fi
+
+}
 #w  () {  }
 #x  () {  }
 #y  () {  }

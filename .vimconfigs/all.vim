@@ -9,25 +9,21 @@ set nobackup
 "
 " Vim-users.jp - Hack #202: 自動的にディレクトリを作成する
 " http://vim-users.jp/2011/02/hack202/
-augroup vimrc-auto-mkdir  " {{{
-  autocmd!
-  autocmd BufWritePre * call s:auto_mkdir(expand('<afile>:p:h'), v:cmdbang)
-  function! s:auto_mkdir(dir, force)  " {{{
-    if !isdirectory(a:dir) && (a:force ||
-    \    input(printf('"%s" does not exist. Create? [y/N]', a:dir)) =~? '^y\%[es]$')
-      call mkdir(iconv(a:dir, &encoding, &termencoding), 'p')
-    endif
-  endfunction  " }}}
-augroup END  " }}}
+"augroup vimrc-auto-mkdir  " {{{
+"  autocmd!
+"  autocmd BufWritePre * call s:auto_mkdir(expand('<afile>:p:h'), v:cmdbang)
+"  function! s:auto_mkdir(dir, force)  " {{{
+"    if !isdirectory(a:dir) && (a:force ||
+"    \    input(printf('"%s" does not exist. Create? [y/N]', a:dir)) =~? '^y\%[es]$')
+"      call mkdir(iconv(a:dir, &encoding, &termencoding), 'p')
+"    endif
+"  endfunction  " }}}
+"augroup END  " }}}
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " 一時的に追記
 " 水平分割 + VimShellの起動
 noremap vsp :sp<cr><c-w><c-w>:VimShell<cr>
-
-
-
-" 編集用
 
 " タブスペース
 set expandtab
@@ -43,15 +39,12 @@ set fileencoding=utf8
 " 自動インデント
 set autoindent
 
-
-" Vim の表示関連用のスクリプト
-
 " 行番号表示
 set number
 
 " カラースキーマー
-colorscheme elflord
-"colorscheme evening 
+"colorscheme elflord
+colorscheme evening 
 
 " シンタックスハイライトを有効にする
 syn on
@@ -97,6 +90,8 @@ set ruler
 " ファイルタイプによるSyntaxHightlightの有効化
 au BufNewFile,BufRead *.py setf python
 
+" vi互換モードoff
+set nocompatible
 
-
-
+" backspace有効化
+set backspace=indent,eol,start
