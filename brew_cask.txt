@@ -5,6 +5,7 @@ drawio
 freecad
 gimp
 libreoffice
+libreoffice-language-pack
 macvim
 mamp
 osquery

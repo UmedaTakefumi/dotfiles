@@ -1,6 +1,9 @@
+clamav
+cocoapods
 ghq
 openjdk
 packer
 peco
 pyenv
+tree
 zsh-completions
