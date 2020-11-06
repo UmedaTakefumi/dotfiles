@@ -2,41 +2,38 @@ DOTFILES_STANDARD_PATH=$HOME/Data/repos/github.com/UmedaTakefumi/dotfiles
 
 #a  () { }
 #b  () {  }
-#c  () {  }
+c  ()	{ clear }
 #d  () {  }
 #e  () {  }
 #f  () {  }
-g  () { cd $(ghq root)/$(ghq list) | peco }
-gc () { git checkout }
-gh () { ghq get }
-gom () { git push origin master }
-gp () { git pull  }
-h  () { history }
+g  ()   { cd $(ghq root)/$(ghq list) | peco }
+gc ()   { git checkout $* }
+gh ()   { ghq get $* }
+gom ()  { git push origin master $* }
+gp ()   { git pull $* }
+h  ()   { history }
 #i  () {  }
 #j  () {  }
 #k  () {  }
-l  () { ls -lasF }
+l  ()   { ls -lasF $* }
 #m  () {  }
 #n  () {  }
 #o  () {  }
-p  () { python }
+p  ()   { python }
 #q  () {  }
 #r  () {  }
 #s  () {  }
 #t  () {  }
 #u  () {  }
-v  () {
+v  ()   {
   if [ -e $HOME/.vimconfigs/all.vim ]; then
-
-    vim -u $HOME/.vimconfigs/all.vim
+    vim -u $HOME/.vimconfigs/all.vim $*
 
   elif [ -e $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim ]; then
-    
-    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim
+    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim $*
 
   else
-
-    vim 
+    vim $*
 
   fi
 

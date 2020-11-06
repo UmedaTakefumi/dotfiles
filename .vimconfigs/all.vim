@@ -1,3 +1,11 @@
+" vim plugin path
+let s:DOTFILE_STANDARD_PATH = "$HOME/Data/repos/github.com/UmedaTakefumi/dotfiles"
+
+" vim plugin
+"echo DOTFILE_STANDARD_PATH
+execute 'set runtimepath+=' . s:DOTFILE_STANDARD_PATH . '/Other/.vim'
+"set rtp
+
 " スワップファイルを作成しない
 set noswapfile
 
@@ -33,7 +41,7 @@ set shiftwidth=2
 
 " 文字コード
 set encoding=utf8
-set termencoding=uft8
+"set termencoding=uft8
 set fileencoding=utf8
 
 " 自動インデント
@@ -43,8 +51,7 @@ set autoindent
 set number
 
 " カラースキーマー
-"colorscheme elflord
-colorscheme evening 
+colorscheme blue
 
 " シンタックスハイライトを有効にする
 syn on
