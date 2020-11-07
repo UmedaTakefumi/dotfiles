@@ -7,4 +7,5 @@ peco
 pyenv
 tig
 tree
+wget
 zsh-completions
