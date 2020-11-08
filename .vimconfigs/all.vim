@@ -2,9 +2,7 @@
 let s:DOTFILE_STANDARD_PATH = "$HOME/Data/repos/github.com/UmedaTakefumi/dotfiles"
 
 " vim plugin
-"echo DOTFILE_STANDARD_PATH
 execute 'set runtimepath+=' . s:DOTFILE_STANDARD_PATH . '/Other/.vim'
-"set rtp
 
 " スワップファイルを作成しない
 set noswapfile
