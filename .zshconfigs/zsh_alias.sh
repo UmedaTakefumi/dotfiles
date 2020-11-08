@@ -11,6 +11,7 @@ gc ()   { git checkout $* }
 gh ()   { ghq get $* }
 gom ()  { git push origin master $* }
 gp ()   { git pull $* }
+gs ()	{ git status }
 h  ()   { history }
 #i  () {  }
 #j  () {  }
