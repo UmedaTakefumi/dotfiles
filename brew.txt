@@ -1,11 +1,16 @@
 clamav
 cocoapods
 ghq
+jmeter
+lzo
 openjdk
 packer
 peco
 pyenv
+sqlite
 tig
 tree
+unbound
 wget
+xz
 zsh-completions
