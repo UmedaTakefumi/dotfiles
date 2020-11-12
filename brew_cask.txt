@@ -1,4 +1,8 @@
 adoptopenjdk
+android-file-transfer
+android-platform-tools
+android-sdk
+android-studio
 dbeaver-community
 docker
 drawio
