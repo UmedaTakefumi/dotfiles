@@ -1,9 +1,9 @@
 clamav
 cocoapods
 ghq
+gradle
 jmeter
 lzo
-openjdk
 packer
 peco
 pyenv
