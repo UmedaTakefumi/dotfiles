@@ -2,7 +2,7 @@
 
 echo "00. init dir and download archive"
 mkdir -p ~/Data/repos
-mkdir -p ~/{tmp,Dockers,Develop-AZ,GoogleDrive,OneDrive,Vagrant}
+mkdir -p ~/{tmp,Dockers,Develop-AZ,GoogleDrive,OneDrive,Vagrant,Logs}
 cd ~/tmp
 curl -OL https://github.com/UmedaTakefumi/dotfiles/archive/master.zip
 
