@@ -1,3 +1,4 @@
+ansible
 bazel
 clamav
 cocoapods
@@ -8,10 +9,8 @@ lzo
 packer
 peco
 pyenv
-sqlite
 tig
 tree
 unbound
 wget
-xz
 zsh-completions
