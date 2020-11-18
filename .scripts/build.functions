@@ -1,8 +1,8 @@
 # ref. https://qiita.com/qoAop/items/7b7533c716ba1fa4c16b
 brew_export()  {
 
-  brew leaves > brew.txt
-  brew cask list -1 > brew_cask.txt
+  brew leaves       > ../.configs/brew.mac.txt
+  brew cask list -1 > ../.configs/brew_cask.mac.txt
 }
 
 # ref: https://qiita.com/UmedaTakefumi/items/fe02d17264de6c78443d
