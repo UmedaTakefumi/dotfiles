@@ -6,6 +6,7 @@ ghq
 gradle
 jmeter
 lzo
+nkf
 packer
 peco
 pyenv
