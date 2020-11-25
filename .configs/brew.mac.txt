@@ -10,6 +10,7 @@ nkf
 packer
 peco
 pyenv
+screen
 tig
 tree
 unbound
