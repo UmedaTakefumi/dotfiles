@@ -2,25 +2,45 @@ DOTFILES_STANDARD_PATH=$HOME/Data/repos/github.com/UmedaTakefumi/dotfiles
 
 #a  () { }
 #b  () {  }
-c  ()	{ clear }
-#d  () {  }
-#e  () {  }
-#f  () {  }
-g  ()   { cd $(ghq root)/$(ghq list) | peco }
-gc ()   { git checkout $* }
-gh ()   { ghq get $* }
-gom ()  { git push origin master $* }
-gp ()   { git pull $* }
-gs ()	{ git status }
-h  ()   { history }
+c (){
+ clear 
+}
+#d () {  }
+#e () {  }
+#f () {  }
+g () {
+  cd $(ghq root)/$(ghq list) | peco 
+}
+gc () { 
+  git checkout $*
+}
+gh () {
+  ghq get $* 
+}
+gom () {
+  git push origin master $* 
+}
+gp () {
+  git pull $* 
+}
+gs () { 
+  git status
+}
+h  () {
+  history
+}
 #i  () {  }
 #j  () {  }
 #k  () {  }
-l  ()   { ls -lasF $* }
+l () {
+  ls -lasF $*
+}
 #m  () {  }
 #n  () {  }
 #o  () {  }
-p  ()   { python }
+p () {
+  python
+}
 #q  () {  }
 #r  () {  }
 #s  () {  }
@@ -43,3 +63,4 @@ v  ()   {
 #x  () {  }
 #y  () {  }
 #z  () {  }
+
