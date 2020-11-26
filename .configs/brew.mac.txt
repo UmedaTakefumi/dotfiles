@@ -3,6 +3,7 @@ bazel
 clamav
 cocoapods
 ghq
+gnupg
 gradle
 jmeter
 lzo
@@ -13,6 +14,5 @@ pyenv
 screen
 tig
 tree
-unbound
 wget
 zsh-completions
