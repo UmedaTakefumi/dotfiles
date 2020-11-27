@@ -11,6 +11,7 @@ nkf
 packer
 peco
 pyenv
+sbt
 screen
 tig
 tree
