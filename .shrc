@@ -3,3 +3,15 @@
 USE_SHELL=$SHELL
 
 echo $SHELL
+
+if [ $SHELL == "/bin/zsh" ]; then
+  echo "zsh"
+
+elif [ $SHELL == "/bin/bash" ]; then
+  echo "bash"
+
+else
+  echo "Your platform ($(uname -a)) is not supported."
+  exit 1
+
+
