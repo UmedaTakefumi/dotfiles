@@ -27,11 +27,11 @@ p  ()   { python }
 #t  () {  }
 #u  () {  }
 v  ()   {
-  if [ -e $HOME/.vimconfigs/all.vim ]; then
-    vim -u $HOME/.vimconfigs/all.vim $*
+  if [ -e $HOME/.vimconfigs/config.vim ]; then
+    vim -u $HOME/.vimconfigs/config.vim $*
 
-  elif [ -e $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim ]; then
-    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/all.vim $*
+  elif [ -e $DOTFILES_STANDARD_PATH/.vimconfigs/config.vim ]; then
+    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/config.vim $*
 
   else
     vim $*
