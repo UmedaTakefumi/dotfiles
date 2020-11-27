@@ -1,0 +1,5 @@
+#!/bin/bash
+
+USE_SHELL=$SHELL
+
+echo $SHELL
