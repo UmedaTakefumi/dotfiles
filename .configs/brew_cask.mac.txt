@@ -6,6 +6,7 @@ android-studio
 dbeaver-community
 docker
 drawio
+firefox
 freecad
 gimp
 libreoffice
