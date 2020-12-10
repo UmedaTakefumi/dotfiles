@@ -13,6 +13,7 @@ peco
 pyenv
 sbt
 screen
+squid
 tig
 tree
 wget
