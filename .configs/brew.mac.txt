@@ -6,6 +6,7 @@ ghq
 gnupg
 gradle
 jmeter
+jq
 lzo
 nkf
 packer
