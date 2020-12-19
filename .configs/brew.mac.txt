@@ -4,6 +4,7 @@ clamav
 cocoapods
 ghq
 gnupg
+go
 gradle
 jmeter
 jq
