@@ -1,6 +1,7 @@
 ansible
 bazel
 clamav
+cmake
 cocoapods
 ghq
 gnupg
