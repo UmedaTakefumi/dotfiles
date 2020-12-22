@@ -2,7 +2,7 @@
 brew_export()  {
 
   brew leaves       > ../.configs/brew.mac.txt
-  brew cask list -1 > ../.configs/brew_cask.mac.txt
+  brew list --cask > ../.configs/brew_cask.mac.txt
 }
 
 # ref: https://qiita.com/UmedaTakefumi/items/fe02d17264de6c78443d
