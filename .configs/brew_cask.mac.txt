@@ -15,6 +15,7 @@ macvim
 mamp
 osquery
 postman
+unetbootin
 vagrant
 virtualbox
 visual-studio-code
