@@ -5,12 +5,12 @@ cmake
 cocoapods
 ghq
 gnupg
+gnuplot
 go
 gradle
 httpie
 jmeter
 jq
-lzo
 nkf
 packer
 peco
