@@ -7,7 +7,7 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 yum check-update
 sudo yum -y install code
 sudo yum -y install kubernetes podman
-LANG=C xdg-user-dirs-update
+LANG=C xdg-user-dirs-update --force
 sudo yum -y install wireshark
 sudo yum -y install libreoffice
 sudo yum -y install git gnome-do
