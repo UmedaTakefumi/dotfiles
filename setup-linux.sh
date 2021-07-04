@@ -10,6 +10,7 @@ sudo yum -y install kubernetes podman
 LANG=C xdg-user-dirs-update
 sudo yum -y install wireshark
 sudo yum -y install libreoffice
-sudo yum -y install git
+sudo yum -y install git gnome-do
+
 
 
