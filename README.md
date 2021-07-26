@@ -10,7 +10,7 @@ dotfiles
 ```
 mkdir -p ~/Temp
 cd ~/Temp
-curl -O https://github.com/UmedaTakefumi/dotfiles/archive/refs/heads/master.zip
+curl -L -O https://github.com/UmedaTakefumi/dotfiles/archive/refs/heads/master.zip
 unzip master.zip
 ```
 
