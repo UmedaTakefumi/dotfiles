@@ -5,7 +5,18 @@ dotfiles
 
 ## 使い方
 
+### macOS
 
+```
+mkdir -p ~/Temp
+cd ~/Temp
+curl -O https://github.com/UmedaTakefumi/dotfiles/archive/refs/heads/master.zip
+unzip master.zip
+```
 
+### linux
 
+```
+
+```
 
