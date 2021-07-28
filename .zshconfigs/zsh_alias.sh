@@ -25,7 +25,7 @@ p  ()   { python }
 #q  () {  }
 #r  () {  }
 #s  () {  }
-#t  () {  }
+t  () { tree }
 #u  () {  }
 v  ()   {
   if [ -e $HOME/.vimconfigs/config.vim ]; then
