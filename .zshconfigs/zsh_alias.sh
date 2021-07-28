@@ -26,6 +26,11 @@ p  ()   { python }
 #r  () {  }
 #s  () {  }
 t  () { tree }
+ta () { tree -a}
+tg () { 
+  pwd;find . | sort | sed '1d;s/^\.//;s/\/\([^/]*\)$/|--\1/;s/\/[^/|]*/|  /g' 
+  ## ref: https://qiita.com/yone098@github/items/bba8a42de6b06e40983b
+}
 #u  () {  }
 v  ()   {
   if [ -e $HOME/.vimconfigs/config.vim ]; then
