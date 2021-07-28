@@ -7,6 +7,7 @@ c  ()	{ clear }
 #e  () {  }
 #f  () {  }
 g  ()   { cd $(ghq root)/$(ghq list) | peco }
+gb ()	{ git branch --contains=HEAD }
 gc ()   { git checkout $* }
 gh ()   { ghq get $* }
 gom ()  { git push origin master $* }
