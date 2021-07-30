@@ -17,6 +17,9 @@ unzip master.zip
 ### linux
 
 ```
-
+mkdir -p ~/Temp
+cd ~/Temp
+wget https://github.com/UmedaTakefumi/dotfiles/archive/refs/heads/master.zip
+unzip master.zip
 ```
 
