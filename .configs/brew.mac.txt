@@ -20,5 +20,6 @@ screen
 squid
 tig
 tree
+radare2
 wget
 zsh-completions
