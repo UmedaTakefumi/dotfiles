@@ -27,6 +27,8 @@ endif
 "insert here your Neobundle plugins"
 NeoBundle 'scrooloose/nerdtree'
 
+" usage:
+" 	:NeoBundleInstall
 call neobundle#end()
 
 filetype plugin indent on
