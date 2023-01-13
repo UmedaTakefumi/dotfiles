@@ -28,21 +28,9 @@ p  ()   { python }
 t  () { tree }
 ta () { tree -a}
 tg () { 
-  pwd;find . | sort | sed '1d;s/^\.//;s/\/\([^/]*\)$/|--\1/;s/\/[^/|]*/|  /g' 
-  ## ref: https://qiita.com/yone098@github/items/bba8a42de6b06e40983b
 }
 #u  () {  }
 v  ()   {
-  if [ -e $HOME/.vimconfigs/config.vim ]; then
-    vim -u $HOME/.vimconfigs/config.vim $*
-
-  elif [ -e $DOTFILES_STANDARD_PATH/.vimconfigs/config.vim ]; then
-    vim -u $DOTFILES_STANDARD_PATH/.vimconfigs/config.vim $*
-
-  else
-    vim $*
-
-  fi
 
 }
 #w  () {  }
