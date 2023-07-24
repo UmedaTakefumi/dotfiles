@@ -1,0 +1,16 @@
+files
+Firefox
+ghidra
+git
+golang
+openjdk
+packer
+python311
+radare2
+rust
+vagrant
+vim
+virtualbox
+virtualbox-guest-additions-guest.install
+vscode
+wireshark
