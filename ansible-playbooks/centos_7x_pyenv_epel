@@ -15,4 +15,9 @@ CPPFLAGS="$(pkg-config --cflags openssl11)" LDFLAGS="$(pkg-config --libs openssl
 CPPFLAGS="$(pkg-config --cflags openssl11)" LDFLAGS="$(pkg-config --libs openssl11)" pyenv install 3.10.12
 CPPFLAGS="$(pkg-config --cflags openssl11)" LDFLAGS="$(pkg-config --libs openssl11)" pyenv install 3.9.17
 
+pyenv local 3.11.4 
+
+pip3.11 install ansible
+pip3.11 install pytest-testinfra
+
 ansible-config init --disabled -t all > ansible.cfg
