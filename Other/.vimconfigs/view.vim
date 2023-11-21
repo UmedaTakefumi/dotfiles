@@ -23,7 +23,7 @@ set ambiwidth=double
 set showcmd
 
 " ステータスバーの表示
-set statusline=%<%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%r%m%h%w%=%l/%L:%c%V%8P
+set statusline=%<%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%f%r%m%h%w%=%l/%L:%c%V%8P
 
 " ルーラーを表示
 set ruler
@@ -51,6 +51,5 @@ set ruler
 " ファイルタイプによるSyntaxHightlightの有効化
 au BufNewFile,BufRead *.py setf python
 
-
-
+set nowrap
 
